@@ -6,5 +6,5 @@ dependencies:
     group: com.guidewire.pc
     version: 1.11.1
 	parameters:
-		enable_asynchronous_quoting=yes
+		enable_asynchronous_quoting: yes
 
