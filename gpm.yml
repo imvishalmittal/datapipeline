@@ -1,0 +1,4 @@
+dependencies:
+  - name: PolicyCenter
+    group: com.guidewire.pc
+    version: 10.0.1-SNAPSHOT
