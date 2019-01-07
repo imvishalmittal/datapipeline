@@ -7,4 +7,6 @@ dependencies:
     version: 1.11.1
     parameters:
       enable_asynchronous_quoting: yes
+      enable_solr: yes
+      solr_server_type: default
 
