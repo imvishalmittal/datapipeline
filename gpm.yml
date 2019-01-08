@@ -10,5 +10,4 @@ dependencies:
       enable_solr: no
   - name: EnableKafkaPlugin
     group: test
-    version: 1.0.0
-    path: ../kafka
+    git: https://github.com/imvishalmittal/datapipeline.git
