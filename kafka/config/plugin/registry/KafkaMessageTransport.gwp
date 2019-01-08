@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<plugin
+  interface="MessageTransport"
+  name="KafkaMessageTransport">
+  <plugin-java
+    disabled="false"
+    javaclass="gw.plugin.messaging.kafka.KafkaMessageTransport">
+    <param
+      name="topic"
+      value="test"/>
+    <param
+      name="bootstrap.servers"
+      value="localhost:29092"/>
+  </plugin-java>
+</plugin>
