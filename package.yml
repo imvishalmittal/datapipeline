@@ -5,10 +5,10 @@ version: 1.0.0
 install:
   - name: copy plugin file
     copy:
-      src: /home/vmittal/project_work/git/datapipeline/kafka/config/plugin/registry/KafkaMessageTransport.gwp
+      src: kafka/config/plugin/registry/KafkaMessageTransport.gwp
       dest: modules/configuration/config/plugin/registry/KafkaMessageTransport.gwp
 
   - name: copy messaging file
     copy:
-      src: /home/vmittal/project_work/git/datapipeline/kafka/config/messaging/messaging-config.xml
+      src: kafka/config/messaging/messaging-config.xml
       dest: modules/configuration/config/messaging/messaging-config.xml
